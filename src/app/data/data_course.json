@@ -1,0 +1,104 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Guitar Fundamentals",
+            "slug": "guitar-fundamentals",
+            "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+            "price": 99.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1519640350407-953bc0614f4c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 2,
+            "title": "Piano for Beginners",
+            "slug": "piano-for-beginners",
+            "description": "A complete beginner's guide to playing the piano and reading music.",
+            "price": 89.99,
+            "instructor": "Jane Smith",
+            "isFeatured": true,
+            "image": "https://plus.unsplash.com/premium_photo-1682326302625-1e5b7826fb3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBpYW5vfGVufDB8fDB8fHww"
+        },
+        {
+            "id": 3,
+            "title": "Introduction to Digital Photography",
+            "slug": "introduction-to-digital-photography",
+            "description": "Learn the fundamentals of digital photography and how to use a DSLR camera.",
+            "price": 79.99,
+            "instructor": "Alice Johnson",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1486916856992-e4db22c8df33?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 4,
+            "title": "Web Development Essentials",
+            "slug": "web-development-essentials",
+            "description": "Get started with HTML, CSS, and JavaScript in this introductory course.",
+            "price": 129.99,
+            "instructor": "Michael Brown",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 5,
+            "title": "Mastering Excel for Data Analysis",
+            "slug": "mastering-excel-data-analysis",
+            "description": "Advanced Excel techniques to analyze and visualize data effectively.",
+            "price": 59.99,
+            "instructor": "David Lee",
+            "isFeatured": false,
+            "image": "https://plus.unsplash.com/premium_photo-1726848121953-354d20f7f522?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 6,
+            "title": "Introduction to Cooking",
+            "slug": "introduction-to-cooking",
+            "description": "Learn basic cooking skills, recipes, and techniques for home cooking.",
+            "price": 39.99,
+            "instructor": "Emma Wilson",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1605433247501-698725862cea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 7,
+            "title": "Creative Writing for Beginners",
+            "slug": "creative-writing-for-beginners",
+            "description": "Unleash your creativity with our beginner's guide to creative writing.",
+            "price": 69.99,
+            "instructor": "Chris Miller",
+            "isFeatured": false,
+            "image": "https://plus.unsplash.com/premium_photo-1663835910908-1203b075cd3b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 8,
+            "title": "Yoga for Stress Relief",
+            "slug": "yoga-for-stress-relief",
+            "description": "Simple yoga techniques and poses to manage and relieve stress.",
+            "price": 49.99,
+            "instructor": "Sophia Davis",
+            "isFeatured": true,
+            "image": "https://plus.unsplash.com/premium_photo-1683120945716-225cfd5afb81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 9,
+            "title": "Basics of French Language",
+            "slug": "basics-of-french-language",
+            "description": "Begin your journey to learning French with basic phrases and vocabulary.",
+            "price": 79.99,
+            "instructor": "Jean-Paul Dubois",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1589395937658-0557e7d89fad?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 10,
+            "title": "Photoshop Essentials",
+            "slug": "photoshop-essentials",
+            "description": "Master the essentials of Adobe Photoshop for photo editing and design.",
+            "price": 109.99,
+            "instructor": "Linda Green",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1610218740950-119b4eaad82d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ]
+}
