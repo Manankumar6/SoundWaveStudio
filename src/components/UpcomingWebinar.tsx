@@ -43,12 +43,12 @@ const UpcomingWebinar = () => {
     ];
     return (
         <div className='py-12 bg-gray-900'>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="max-w-7xl mx-auto md:px-4 px-1 sm:px-6">
                 <div className='text-center'>
                     <h2 className='text-teal-600 text-2xl font-bold'>FEATURED WEBINAR</h2>
                     <p className='text-4xl'>Enhance Your Musical Jounery</p>
                 </div>
-                <div className='mt-10 '> <div className="max-w-5xl mx-auto px-8">
+                <div className='mt-10 '> <div className="max-w-5xl mx-auto md:px-8 px-4">
                     <HoverEffect items={projects} />
                 </div></div>
                 <div className='mt-10 text-center '>

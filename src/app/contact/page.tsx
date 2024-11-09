@@ -34,7 +34,7 @@ const page = () => {
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
         <div className='text-center mt-5'>
 
-        <Link href={'www.techcanva.in'} target='_blank' >www.techcanva.in</Link>
+        <Link href={'https://techcanva.in'} target='_blank' >www.techcanva.in</Link>
         </div>
       </div>
       
