@@ -2,15 +2,16 @@ import React from 'react'
 
 import { SparklesCore } from "@/components/ui/sparkles";
 import Link from 'next/link';
+import { Button } from '@/components/ui/moving-border';
 const page = () => {
   return (
 
   
     
 
-    <div className="h-[45rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <p className='text-xl'>Presented By</p>
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+    <div className="h-screen w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <p className='md:text-xl text-lg'>Presented By</p>
+      <h1 className="md:text-7xl text-4xl lg:text-9xl font-bold text-center text-white relative z-20">
         TechCanva
       </h1>
       <div className="w-[40rem] h-40 relative">
@@ -34,7 +35,7 @@ const page = () => {
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
         <div className='text-center mt-5'>
 
-        <Link href={'https://techcanva.in'} target='_blank' >www.techcanva.in</Link>
+        <Link href={'https://techcanva.in'} target='_blank' ><Button className='bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800'>www.techcanva.in</Button></Link>
         </div>
       </div>
       

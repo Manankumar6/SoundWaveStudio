@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { HoverEffect } from "./ui/card-hover-effect";
+import { Button } from './ui/moving-border';
 const UpcomingWebinar = () => {
     const projects = [
         {
@@ -52,7 +53,10 @@ const UpcomingWebinar = () => {
                     <HoverEffect items={projects} />
                 </div></div>
                 <div className='mt-10 text-center '>
-                    <Link href={'/'} className='px-8 py-2 rounded border border-neutral-400 text-neutral-700 bg-white hover:bg-gray-100 transition duration-300'>View All Webinars</Link>
+               <Link href={'/course'}>
+        <Button className='bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800'>View All Webinars</Button>
+      </Link>
+                    
                 </div>
 
             </div>
