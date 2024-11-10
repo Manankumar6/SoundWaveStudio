@@ -23,11 +23,11 @@ const TestimonoalCards = () => {
 
     return (
         <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.1] items-center justify-center relative overflow-hidden">
-            <h2 className=' text-2xl md:text-4xl'>Hear Our Hermony : Voice of success</h2>
+            <h2 className=' text-xl md:text-4xl '>Hear Our Hermony : Voice of success</h2>
             <InfiniteMovingCards
                 items={testimonials}
                 direction="right"
-                speed="slow"
+                speed="normal"
             />
         </div>
     )

@@ -20,10 +20,10 @@ const Instructor = () => {
         },
         {
           id: 3,
-          name: "Jane Smith",
-          designation: "Data Scientist",
+          name: "Manan",
+          designation: "Web Developer",
           image:
-            "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+            "/manan.jpg",
         },
         {
           id: 4,
@@ -53,7 +53,7 @@ const Instructor = () => {
       <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
       Meet Our Instructors
       </p>
-      <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
+      <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center px-1">
       Discover the talented professionals who will guide your musical journey
       </p>
       <div className="flex flex-row items-center justify-center mb-10 mt-10 w-full">
